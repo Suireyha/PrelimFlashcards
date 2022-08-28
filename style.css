@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.uni{
+    background: #1B1B1B;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: hidden;
+    height: 98vh;
+}
+
+.contInteract{
+    /*Flex properties*/
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.contBtns{
+    /*Flex properties*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+
+.textbox{
+    align-self: center;
+    width: 300px;
+    height: 40px;
+
+    background-color: #1B1B1B;
+    box-shadow: none;
+    border: solid 3px;
+    border-radius: 25px;
+    border-color: #303030;
+    padding-left: 15px;
+    color: #454545;
+    outline: none;
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+    transition: .3s all;
+}
+
+.textbox:hover{
+    border-color: #58a0c2;
+    box-shadow: 0 0 3px #58a0c2;
+    color: #b6b6b6;
+}
+
+.textbox:focus{
+    border-color: #239fd8;
+    box-shadow: 0 0 5px #239fd8;
+    color: white;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: solid 3px gray;
+    color: gray;
+    font-weight: bolder;
+    font: 'Quicksand', sans-serif;
+    outline: none;
+
+    transition: .3s all;
+}
+
+.btn:hover{
+    border-color: rgb(75, 223, 75);
+    box-shadow: 0 0 10px rgb(75, 223, 75);
+    color: white;
+    cursor: grabbing;
+}
+
+
