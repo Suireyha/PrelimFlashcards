@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" style="background-color: #1B1B1B;">
 <head>
+    <script src="https://kit.fontawesome.com/0ae03344f7.js" crossorigin="anonymous"></script>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
@@ -12,19 +13,21 @@
 <body>
     <div class="uni">
 
-        <img src="" alt="">
+        <div class="cont">
+            <h2 class="label">Which system flow symbol is this?</h2>
+            <img src="./Assets/terminator.png" alt="image" class="img" id="card">
+        </div>
 
-
-        <div class="contInteract">
-            <input type="text" class="textbox">
+        <div class="cont">
+            <input type="text" class="textbox" onkeydown="isEnter(event)">
             <div class="contBtns">
-                <button class="btn" id="confirm">C</button>
-                <!-- ><button class="btn" id="regenerate">R</button> 
+                <button class="btn" id="confirm">
+                    <i class="fa-solid fa-check"></i>
+                </button>
+                <!-- <button class="btn" id="regenerate">R</button> 
                 --> 
             </div>
         </div>
-
-
 
     </div>
 </body>

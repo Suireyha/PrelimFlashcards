@@ -9,11 +9,18 @@
     height: 98vh;
 }
 
-.contInteract{
+.cont{
     /*Flex properties*/
     display: flex;
-    align-self: center;
     flex-direction: column;
+}
+
+.label{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    align-self: center;
 }
 
 .contBtns{
@@ -41,7 +48,7 @@
 
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
 
     transition: .3s all;
 }
@@ -77,6 +84,11 @@
     box-shadow: 0 0 10px rgb(75, 223, 75);
     color: white;
     cursor: grabbing;
+}
+
+.img{
+    width: 300px;
+    align-self: center;
 }
 
 
